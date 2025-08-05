@@ -119,7 +119,6 @@ void clean_up() {
 
 int main() {
     printf("\033[?25l"); // Hide cursor
-    atexit(clean_up); // Ensure cursor is restored on exit
     
     setvbuf(stdout, NULL, _IOFBF, SCREEN_CHARS);
     signal(SIGINT, clean_up);
