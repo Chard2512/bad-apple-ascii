@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "cmath": "c",
+        "compare": "c",
+        "concepts": "c",
+        "cstddef": "c",
+        "type_traits": "c",
+        "limits": "c",
+        "typeinfo": "c",
+        "stdio.h": "c",
+        "time.h": "c",
+        "wait.h": "c"
+    }
+}
