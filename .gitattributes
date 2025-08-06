@@ -1,9 +1,17 @@
 *.c linguist-language=C
+*.h linguist-language=C
 
-src/process_frames.py linguist-documentation
+*.py linguist-documentation
+src/*.py linguist-documentation
+process_frames.py linguist-documentation
+
+bin/* linguist-vendored  
+lib/* linguist-vendored
+include/* linguist-vendored
+pyvenv.cfg linguist-vendored
+
+assets/* linguist-vendored
 
 *.md linguist-documentation
-*.txt linguist-documentation
-*.dat linguist-vendored
-*.mp3 linguist-vendored
 LICENSE linguist-documentation
+Makefile linguist-documentation
