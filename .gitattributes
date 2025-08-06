@@ -1,0 +1,9 @@
+*.c linguist-language=C
+
+src/process_frames.py linguist-documentation
+
+*.md linguist-documentation
+*.txt linguist-documentation
+*.dat linguist-vendored
+*.mp3 linguist-vendored
+LICENSE linguist-documentation

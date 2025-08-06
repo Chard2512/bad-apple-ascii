@@ -9,12 +9,11 @@ This program requires mpg123 installed. Install it with:
 - sudo apt install mpg123 (on Debian/Ubuntu)
 - sudo pacman -S mpg123 (on Arch based)
 
-Then build the program with:
+Then install the program with:
 
-- gcc src/badapple.c -o badapple
+- make install
 
-
-Run ./badapple and enjoy :D
+Run "badapple" on terminal and enjoy :D
 
 # Notes
 
@@ -43,3 +42,7 @@ Then run:
 
 This will replace assets/badapple.dat. Accordingly modify SCREEN_HEIGHT and 
 SCREEN_WIDTH on badapple.c to transmit the video correctly.
+
+This python file requires natsort and PIL, so if you're unable to activate
+the venv for any reason, install those packages system-wide or create your
+own venv to install.
