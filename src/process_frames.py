@@ -1,6 +1,10 @@
 # Copyright (c) 2025 Chardson Coelho
 # Licensed under the MIT License. See LICENSE file for details.
 
+__version__ = "1.0.0"
+__author__ = "Chardson Coelho"
+__email__ = "chardson.coelho17@gmail.com"
+
 from natsort import natsorted
 from PIL import Image
 import os

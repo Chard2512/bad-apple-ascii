@@ -13,6 +13,7 @@ Then build the program with:
 
 - gcc src/badapple.c -o badapple
 
+
 Run ./badapple and enjoy :D
 
 # Notes
